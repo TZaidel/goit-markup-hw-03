@@ -108,19 +108,16 @@ a {
 
 /* ----HERO------ */
 .hero {
-  padding: 188px 473px;
+  padding-top: 188px;
   background: var(--navy-blue-color);
   height: 600px;
+  text-align: center;
 }
-.hero-container {
-  width: 496px;
-  padding: 188px auto;
-}
+
 .hero-title {
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
