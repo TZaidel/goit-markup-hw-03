@@ -56,11 +56,11 @@ a {
 }
 .header {
   border-bottom: solid 1px #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header > .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-nav {
   font-weight: 600;
@@ -68,7 +68,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
-  padding-left: 156px;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -108,11 +107,10 @@ a {
 }
 
 /* ----HERO------ */
-.hero > .container {
-  height: 600px;
+.hero {
+  padding: 188px 473px;
   background: var(--navy-blue-color);
-  display: flex;
-  flex-direction: column;
+  height: 600px;
 }
 .hero-container {
   width: 496px;
@@ -126,7 +124,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  margin: auto;
+  margin: 0 auto;
 }
 .btn {
   font-family: inherit;
@@ -144,16 +142,22 @@ a {
   display: block;
   margin: 48px auto;
 }
-/* somethink went wrong :( */
 
 /* --------ABOUT-------- */
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .about-list {
   display: flex;
-  margin-top: 120px;
   gap: 24px;
 }
 .about-description {
   margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
 }
 .about-list-title {
   font-weight: 500;
@@ -164,8 +168,10 @@ a {
 }
 
 /* ---------WE DO-------- */
+.we-do {
+  padding-bottom: 120px;
+}
 .we-do-title {
-  margin-top: 120px;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
@@ -183,12 +189,10 @@ a {
 /* ---------TEAM--------- */
 .team {
   background: #f4f4fd;
-  margin-top: 120px;
-}
-.team > .container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .team-main-title {
   font-weight: 600;
   font-size: 36px;
@@ -207,13 +211,17 @@ a {
   background: #fff;
   height: 120px;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-title {
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
 /* -------portfolio--------- */
+.portfolio {
+  padding-top: 96px;
+}
 .btn-portfolio {
   font-weight: 600;
   font-size: 16px;
@@ -224,7 +232,6 @@ a {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  margin-top: 96px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -256,15 +263,13 @@ a {
   margin-top: 32px;
   margin-bottom: 8px;
 }
-.list-title,
-.portfolio-p {
-  padding-left: 16px;
-}
+
 .portfolio-desc {
   background: #fff;
   height: 120px;
   text-align: start;
   border: 1px solid #e7e9fc;
+  padding-left: 16px;
 }
 .container {
   width: 1158px;
@@ -290,8 +295,6 @@ a {
 /* --------FOOTER------- */
 footer {
   background: var(--navy-blue-color);
-}
-footer > .container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
