@@ -110,6 +110,7 @@ a {
 .hero {
   padding-top: 188px;
   background: var(--navy-blue-color);
+  max-width: 1440px;
   height: 600px;
   text-align: center;
 }
